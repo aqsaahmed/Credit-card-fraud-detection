@@ -9,9 +9,10 @@ Detection Techniques Used-
 2. Random Forest- Random forest classifier creates a set of decision tree from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object.
 3. Logistic Regression- Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Unlike linear regression which outputs continuous number values, logistic regression transforms its output using the logistic sigmoid function to return a probability value which can then be mapped to two or more discrete classes.
 4. Neural Networks- Neural networks are parallel computing devices, which are basically an attempt to make a computer model of the brain. The main objective is to develop a system to perform various computational tasks faster than the traditional systems. This tutorial covers the basic concept and terminologies involved in Artificial Neural Network. Sections of this tutorial also explain the architecture as well as the training algorithm of various networks used in ANN.
-Our Approach-
 
+Our Approach-
 Firstly, we check if there is any relation between all the input variables, but the data was highly unbalanced, so we didn’t get any relation.
 Afterwards we split our dataset into 70% train and 30% test using train_test_split.
 Then we started building models for comparison. The first model we built was a decision tree which gives the accuracy of about 75%, the second model was random forest which gave the accuracy of 81%, the third model was logistic regression which gave the accuracy of 84% and the last model was neural networks which gave the accuracy of 99%.
+
 Conclusion- Based on the results we can say that the neural networks are the most powerful model among all the other models we applied.
